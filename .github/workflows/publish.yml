@@ -27,9 +27,9 @@ jobs:
 
       - name: Create 404 Fallback
         uses: "finnp/create-file-action@master"
-          env:
-            FILE_NAME: "build/404.md"
-            FILE_DATA: "permalink: /404.html"
+        env:
+          FILE_NAME: "build/404.md"
+          FILE_DATA: "permalink: /404.html"
 
       - name: Deploy
         uses: s0/git-publish-subdir-action@develop
