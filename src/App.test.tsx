@@ -4,6 +4,6 @@ import App from "./App";
 
 test("renders header1", () => {
   render(<App />);
-  const linkElement = screen.getByText(/Alang Blog/i);
+  const linkElement = screen.getByText("Alang Blog");
   expect(linkElement).toBeInTheDocument();
 });
