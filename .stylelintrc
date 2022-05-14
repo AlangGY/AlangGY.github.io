@@ -1,0 +1,9 @@
+{
+  "extends": ["stylelint-config-idiomatic-order"],
+  "overrides": [
+    {
+      "files": ["**/*.tsx"],
+      "customSyntax": "@stylelint/postcss-css-in-js"
+    }
+  ]
+}
