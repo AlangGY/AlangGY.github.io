@@ -1,9 +1,8 @@
+import { Header } from "@components";
+import colors from "@constants/colors";
 import styled from "@emotion/styled";
+import { Home, Post } from "@pages";
 import { Route, Routes } from "react-router-dom";
-import Header from "./components/Header/Header";
-import colors from "./constants/colors";
-import Home from "./pages/Home";
-import Post from "./pages/Post";
 
 function App() {
   return (

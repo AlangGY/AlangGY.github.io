@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@stylelint/postcss-css-in-js": "^0.38.0",
+    "craco-alias": "^3.0.1",
     "postcss-syntax": "^0.36.2",
     "shx": "^0.3.4",
     "stylelint": "^14.8.2",
