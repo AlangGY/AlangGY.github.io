@@ -2,6 +2,11 @@
 
 Alang Kim의 개발 관련 내용을 다루는 블로그입니다.
 
+## Every Pages Needs To-be Static Generated
+
+Alang Blog는 github page를 사용하여 호스팅됩니다.
+Post의 생성은 markdown 파일을 통해 이루어지며, 이 markdown 파일을 기반으로 각 Post 페이지는 static generated 됩니다.
+
 ## Concept
 
 하나의 글을 `Post`라고 부르며, `Post`는 다음과 같은 속성을 가집니다.
