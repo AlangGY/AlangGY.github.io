@@ -10,14 +10,14 @@ export function PostsPage({}: Props) {
       <PostList
         posts={[
           ...POST_JSON_FIXTURES,
-          new Post({
-            id: "4",
-            title: "Post 4",
-            content: "This is Post 4 content",
-            description: "This is Post 4",
-            thumbnail: "https://via.placeholder.com/150",
-            updatedAt: 1672531200000,
-          }).toJson(),
+          // new Post({
+          //   id: "4",
+          //   title: "Post 4",
+          //   content: "This is Post 4 content",
+          //   description: "This is Post 4",
+          //   thumbnail: "https://via.placeholder.com/150",
+          //   updatedAt: 1672531200000,
+          // }).toJson(),
         ]}
       />
     </>
