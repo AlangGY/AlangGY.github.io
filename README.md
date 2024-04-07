@@ -15,6 +15,7 @@ Post의 생성은 markdown 파일을 통해 이루어지며, 이 markdown 파일
 - `Content`: 글의 내용
   - `Markdown` 형식을 기반으로 합니다.
   - `React Component`를 사용할 수 있습니다.
+    -> [`MDX`](https://mdxjs.com/)를 사용하여 `React Component`를 사용합니다.
 - `Tag`: 글의 태그
   - LLM모델을 이용하여 generate합니다.
   - Tag를 기반으로 한 인터렉티브한 기능이 제공됩니다.
