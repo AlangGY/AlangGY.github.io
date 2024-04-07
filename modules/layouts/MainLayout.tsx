@@ -11,7 +11,22 @@ export function MainLayout({ children }: PropsWithChildren<Props>) {
       <StickyContainer asChild>
         <Header />
       </StickyContainer>
-      <main className={css({})}>{children}</main>
+      <main className={mainContainerStyle}>{children}</main>
     </>
   );
 }
+
+const mainContainerStyle = css({
+  paddingTop: 8,
+  paddingBottom: 8,
+  paddingLeft: {
+    base: 8,
+    sm: 16,
+    md: "10vw",
+  },
+  paddingRight: {
+    base: 8,
+    sm: 16,
+    md: "10vw",
+  },
+});

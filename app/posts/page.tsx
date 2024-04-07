@@ -1,8 +1,5 @@
+import { PostsPage } from "@/modules/pages/PostsPage";
+
 export default function Page() {
-  return (
-    <>
-      <h1>Posts</h1>
-      <p>This is Posts!</p>
-    </>
-  );
+  return <PostsPage />;
 }
