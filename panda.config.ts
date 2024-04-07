@@ -12,7 +12,23 @@ export default defineConfig({
 
   // Useful for theme customization
   theme: {
-    extend: {},
+    extend: {
+      tokens: {
+        colors: {
+          primary: {
+            DEFAULT: { value: "{colors.green.800}" },
+          },
+        },
+      },
+      semanticTokens: {
+        colors: {
+          link: {
+            DEFAULT: { value: "{colors.black}" },
+            hover: { value: "{colors.blue.500}" },
+          },
+        },
+      },
+    },
   },
 
   // The output directory for your css system

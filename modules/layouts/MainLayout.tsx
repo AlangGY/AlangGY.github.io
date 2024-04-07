@@ -1,16 +1,17 @@
 import { PropsWithChildren } from "react";
-import { Header } from "../components/Header";
+import { Header } from "../components/header/Header";
+import { css } from "@/styled-system/css";
+import { StickyContainer } from "./StickyContainer";
 
-interface Props {
-}
+interface Props {}
 
 export function MainLayout({ children }: PropsWithChildren<Props>) {
   return (
     <>
-      <Header />
-      <main>
-        {children}
-      </main>
+      <StickyContainer asChild>
+        <Header />
+      </StickyContainer>
+      <main className={css({})}>{children}</main>
     </>
-  )
+  );
 }

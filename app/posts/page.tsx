@@ -1,8 +1,8 @@
 export default function Page() {
   return (
     <>
-      <h1>Home</h1>
-      <p>This is Home!</p>
+      <h1>Posts</h1>
+      <p>This is Posts!</p>
     </>
   );
 }
