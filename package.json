@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "prepare": "panda codegen",
-    "dev": "rm -rf .next && next dev",
-    "build": "next build",
+    "generate-post-page": "./post-generator/post.sh",
+    "dev": "pnpm run generate-post-page --watch & rm -rf .next && next dev",
+    "build": "pnpm run generate-post-page && next build",
     "start": "next start",
     "lint": "next lint"
   },
