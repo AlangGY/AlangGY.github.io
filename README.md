@@ -1,4 +1,4 @@
-# Alang Blog
+# [Alang Blog](https://alanggy.github.io/)
 
 Alang Kim의 개발 관련 내용을 다루는 블로그입니다.
 
