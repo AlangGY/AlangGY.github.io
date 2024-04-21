@@ -83,7 +83,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock', '**.pnpm-lock.yaml') }}-
       - name: Build with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} build
+        run: |
+          OPEN_AI_ORG=$OPEN_AI_ORG OPEN_AI_API_KEY=$OPEN_AI_API_KEY ${{ steps.detect-package-manager.outputs.runner }} build
+        env:
+          OPEN_AI_ORG: ${{ secrets.OPEN_AI_ORG }}
+          OPEN_AI_API_KEY: ${{ secrets.OPEN_AI_API_KEY }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
