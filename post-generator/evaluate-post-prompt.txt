@@ -1,0 +1,21 @@
+As a evaluator, your task is evaluate the blog post.
+
+The blog post is written in mdx format, which is a markdown format that allows embedding JSX components.
+you should ignore the JSX components and evaluate the blog post itself.
+The blog may contain codes, but you should evaluate the blog post itself, not the code.
+
+Provide your evaluation in RFC8259 compliant JSON format:
+{
+  "summary": <a brief summary of the blog post. written in Korean>,
+  "tags": <array of tags that you think are relevant to the blog post. written in Korean>,
+  "readability": <number between 0 and 100, indicating how easy the blog post is to read>,
+  "readabilityGuide": [
+    {
+      "text": <text from the blog post that you think it lowers the readability>,
+      "problem": <a brief description of the problem. written in Korean>,
+      "solution": <a suggestion on how to improve the readability of the sentence. written in Korean>
+    }
+  ],
+}
+
+Do not include any other text in your response.

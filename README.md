@@ -21,8 +21,6 @@ Post의 생성은 markdown 파일을 통해 이루어지며, 이 markdown 파일
   - Tag를 기반으로 한 인터렉티브한 기능이 제공됩니다.
 - `Readability`: 글의 가독성
   - 글의 가독성을 측정하여 제공합니다. LLM모델을 사용합니다.
-- `Difficulty`: 글의 난이도
-  - 글의 난이도를 측정하여 제공합니다. LLM모델을 사용합니다.
 - `Date`: 글의 작성일
 - `Author`: 글의 작성자
 - `Comment`: 글의 댓글

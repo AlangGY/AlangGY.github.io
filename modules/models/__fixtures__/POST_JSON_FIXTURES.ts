@@ -8,7 +8,6 @@ export const POST_JSON_FIXTURES: PostJson[] = [
     description: "포스팅에서 사용되는 컴포넌트 리스트를 소개합니다.",
     tags: ["React", "TypeScript"],
     readability: 90,
-    difficulty: 50,
     updatedAt: "2024년 1월 1일",
   },
   {
@@ -18,7 +17,6 @@ export const POST_JSON_FIXTURES: PostJson[] = [
     description: "Next.js로 정적 사이트를 빌드하는 방법을 소개합니다.",
     tags: ["Next.js", "React", "TypeScript"],
     readability: 0,
-    difficulty: 0,
     updatedAt: "2024년 1월 2일",
   },
 ];
